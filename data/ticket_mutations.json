@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-10-14T06:15:38.556117+00:00",
+  "total_mutated_tickets": 2,
+  "tickets": [
+    {
+      "ticket_id": "TKT-1001",
+      "customer_id": "CUST-ENT-01",
+      "customer_tier": "Enterprise",
+      "issue_category": "Production Outage",
+      "status": "escalated",
+      "priority": "P0",
+      "assigned_team": "SRE-Critical-Response",
+      "escalation_flag": true,
+      "sla_status": "at_risk",
+      "sentiment": "frustrated",
+      "drafted_reply": "Hello CUST-ENT-01 (Enterprise Priority Support), we have escalated ticket TKT-1001 regarding 'Production Outage' to P0 Incident Response with our SRE-Critical-Response squad (SLA AT RISK (3.5h / 4.0h)). An incident commander is actively investigating and will provide updates every 30 minutes.",
+      "webhook_event_id": "wh_evt_40ecc180ec89",
+      "updated_at": "2026-10-14T06:15:38.550811+00:00"
+    },
+    {
+      "ticket_id": "TKT-1002",
+      "customer_id": "CUST-ENT-02",
+      "customer_tier": "Enterprise",
+      "issue_category": "Security & SSO",
+      "status": "escalated",
+      "priority": "P0",
+      "assigned_team": "Security-Incident-Team",
+      "escalation_flag": true,
+      "sla_status": "breached",
+      "sentiment": "frustrated",
+      "drafted_reply": "Hello CUST-ENT-02 (Enterprise Priority Support), we have escalated ticket TKT-1002 regarding 'Security & SSO' to P0 Incident Response with our Security-Incident-Team squad (SLA BREACHED (5.2h / 4.0h)). An incident commander is actively investigating and will provide updates every 30 minutes. Engineering Update: IdP SAML metadata bridge rolled back by Security Ops.",
+      "webhook_event_id": "wh_evt_0f9644c1c2a9",
+      "updated_at": "2026-10-14T06:15:38.484328+00:00"
+    }
+  ]
+}

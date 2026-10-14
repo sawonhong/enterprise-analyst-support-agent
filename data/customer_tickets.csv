@@ -1,0 +1,9 @@
+ticket_id,customer_id,customer_tier,issue_category,message,created_at,elapsed_hours,sla_hours,status
+TKT-1001,CUST-ENT-01,Enterprise,Production Outage,"URGENT! Our production payment gateway API is returning HTTP 503 for all checkout requests since 01:00 UTC! Losing $50k/hour! Contact me at cto@acme-corp.io or +1-415-555-0199 immediately!",2026-10-14T00:00:00Z,3.5,4.0,open
+TKT-1002,CUST-ENT-02,Enterprise,Security & SSO,"CRITICAL: SAML 2.0 SSO login is failing for 400+ employees after IdP certificate rotation. Nobody can access the console! Reach secops@globex.com.",2026-10-13T22:00:00Z,5.2,4.0,open
+TKT-1003,CUST-BIZ-01,Business,Billing & Invoicing,"We were double-charged $12,400 on invoice INV-9921. This is completely unacceptable! Please refund immediately or we will dispute the charge.",2026-10-13T21:30:00Z,6.0,8.0,in_progress
+TKT-1004,CUST-PRO-01,Pro,Data Export & Analytics,"Hi team, how do we configure automated BigQuery parquet exports for our workspace? Documentation link seems outdated.",2026-10-13T23:30:00Z,4.0,12.0,open
+TKT-1005,CUST-FREE-01,Free,Feature Request,"Love the new analytics dashboard! Would be awesome to have dark mode in the mobile view in a future update.",2026-10-13T17:00:00Z,10.0,24.0,open
+TKT-1006,CUST-ENT-03,Enterprise,,,"2026-10-14T01:00:00Z",2.5,,open
+TKT-1007,CUST-BIZ-02,Business,API Rate Limit,"THIS IS UNACCEPTABLE!! Your rate limiter dropped 80% of our webhook events without warning!! Fix this NOW! Debug key: MOCK_STRIPE_KEY_SAMPLE from 192.168.10.45",2026-10-13T18:00:00Z,9.5,8.0,open
+TKT-1008,CUST-ENT-04,Enterprise,Database Replication,"Read replica lag spiked to 45 minutes in us-east1 region. Analytical queries are returning stale data and impacting executive dashboards.",2026-10-13T23:45:00Z,3.8,4.0,open

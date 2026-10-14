@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-support-agent"
+version = "1.0.0"
+description = "Production-Ready Enterprise Customer Support & Data Analysis Agent built with Python ADK"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Google AI Engineer", email = "sawonhong@google.com"}
+]
+dependencies = [
+    "google-adk>=1.0.0",
+    "google-genai>=1.0.0",
+    "pandas>=2.2.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "python-dotenv>=1.0.1",
+    "opentelemetry-api>=1.25.0",
+    "opentelemetry-sdk>=1.25.0",
+    "streamlit>=1.35.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "."]
+python_files = ["test_*.py"]
+addopts = "-v"

@@ -1,0 +1,21 @@
+# Core Google Agent Development Kit (ADK) & GenAI SDK
+google-adk>=1.0.0
+google-genai>=1.0.0
+
+# Data Processing & Strict Schema Validation
+pandas>=2.2.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# Observability & Distributed Tracing
+opentelemetry-api>=1.25.0
+opentelemetry-sdk>=1.25.0
+
+# Optional Cloud Secret Manager & Web UI
+google-cloud-secret-manager>=2.20.0
+streamlit>=1.35.0
+
+# Testing & Quality Assurance
+pytest>=8.2.0
+pytest-asyncio>=0.23.0

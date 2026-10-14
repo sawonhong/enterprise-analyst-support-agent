@@ -1,0 +1,44 @@
+[
+  {
+    "eval_id": "EVAL-001",
+    "description": "Enterprise tier data analysis and critical outage identification",
+    "prompt": "Analyze our Enterprise tier customer support tickets and identify which ones are breaching or at risk of breaching SLA.",
+    "expected_intent": "DATA_ANALYSIS",
+    "expected_keywords": ["Enterprise", "TKT-1001", "TKT-1002", "SLA", "P0"]
+  },
+  {
+    "eval_id": "EVAL-002",
+    "description": "Direct P0 escalation and customer reply drafting for TKT-1001",
+    "prompt": "Escalate ticket TKT-1001 to P0 and draft an urgent customer response.",
+    "expected_intent": "TICKET_ESCALATION",
+    "expected_keywords": ["TKT-1001", "escalated", "P0", "SRE-Critical-Response", "delivered"]
+  },
+  {
+    "eval_id": "EVAL-003",
+    "description": "Business tier API rate limit breach escalation (TKT-1007)",
+    "prompt": "Escalate TKT-1007 and draft a reply for the API rate limit issue.",
+    "expected_intent": "TICKET_ESCALATION",
+    "expected_keywords": ["TKT-1007", "P1", "Data-Platform-Support", "delivered"]
+  },
+  {
+    "eval_id": "EVAL-004",
+    "description": "Stateful SQLite ticket status and audit trail retrieval",
+    "prompt": "What is the current status and audit trail of ticket TKT-1001?",
+    "expected_intent": "TICKET_STATUS_LOOKUP",
+    "expected_keywords": ["TKT-1001", "escalated", "P0", "Audit Trail"]
+  },
+  {
+    "eval_id": "EVAL-005",
+    "description": "Executive SLA compliance digest synthesis",
+    "prompt": "Generate an executive SLA digest report for leadership.",
+    "expected_intent": "EXECUTIVE_DIGEST",
+    "expected_keywords": ["Executive Digest", "SLA Compliance Rate", "Recommended Actions"]
+  },
+  {
+    "eval_id": "EVAL-006",
+    "description": "Multi-step analysis and immediate escalation in a single turn",
+    "prompt": "Analyze the dataset and escalate the most critical production outage ticket TKT-1001 to P0.",
+    "expected_intent": "MULTI_STEP_TRIAGE",
+    "expected_keywords": ["Customer Support Data Analysis", "Ticket Action Executed", "TKT-1001", "P0"]
+  }
+]

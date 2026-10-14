@@ -1,0 +1,54 @@
+[
+  {
+    "event_id": "wh_evt_0f9644c1c2a9",
+    "endpoint": "https://api.enterprise-support.internal/v1/webhooks/tickets",
+    "event_type": "ticket.escalated",
+    "ticket_id": "TKT-1002",
+    "priority": "P0",
+    "assigned_team": "Security-Incident-Team",
+    "http_status": 200,
+    "delivery_status": "delivered",
+    "attempts": 1,
+    "hmac_sha256_prefix": "ebd45c2c0d51cb1ef4030d3f",
+    "timestamp": "2026-10-14T06:15:38.483918+00:00",
+    "payload": {
+      "ticket_id": "TKT-1002",
+      "customer_id": "CUST-ENT-02",
+      "customer_tier": "Enterprise",
+      "issue_category": "Security & SSO",
+      "previous_status": "open",
+      "new_status": "escalated",
+      "priority": "P0",
+      "assigned_team": "Security-Incident-Team",
+      "sla_status": "breached",
+      "escalation_flag": true,
+      "drafted_customer_reply": "Hello CUST-ENT-02 (Enterprise Priority Support), we have escalated ticket TKT-1002 regarding 'Security & SSO' to P0 Incident Response with our Security-Incident-Team squad (SLA BREACHED (5.2h / 4.0h)). An incident commander is actively investigating and will provide updates every 30 minutes. Engineering Update: IdP SAML metadata bridge rolled back by Security Ops."
+    }
+  },
+  {
+    "event_id": "wh_evt_40ecc180ec89",
+    "endpoint": "https://api.enterprise-support.internal/v1/webhooks/tickets",
+    "event_type": "ticket.escalated",
+    "ticket_id": "TKT-1001",
+    "priority": "P0",
+    "assigned_team": "SRE-Critical-Response",
+    "http_status": 200,
+    "delivery_status": "delivered",
+    "attempts": 1,
+    "hmac_sha256_prefix": "d74b60c9ace27eb3f517481c",
+    "timestamp": "2026-10-14T06:15:38.550329+00:00",
+    "payload": {
+      "ticket_id": "TKT-1001",
+      "customer_id": "CUST-ENT-01",
+      "customer_tier": "Enterprise",
+      "issue_category": "Production Outage",
+      "previous_status": "open",
+      "new_status": "escalated",
+      "priority": "P0",
+      "assigned_team": "SRE-Critical-Response",
+      "sla_status": "at_risk",
+      "escalation_flag": true,
+      "drafted_customer_reply": "Hello CUST-ENT-01 (Enterprise Priority Support), we have escalated ticket TKT-1001 regarding 'Production Outage' to P0 Incident Response with our SRE-Critical-Response squad (SLA AT RISK (3.5h / 4.0h)). An incident commander is actively investigating and will provide updates every 30 minutes."
+    }
+  }
+]
